@@ -1,0 +1,45 @@
+html, body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-family: 'Prata', serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.drums {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.drum {
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 25px;
+}
+
+.drum > p {
+  margin-top: 0;
+}
+
+.drum:active {
+  background-color: lightgrey;
+  font-weight: bold;
+}
+
+img {
+  height: 60px;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
